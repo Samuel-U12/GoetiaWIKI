@@ -72,7 +72,7 @@ if (form) {
             // Você pode adicionar um 'alert' de sucesso aqui, mas por enquanto, deixe enviar.
             alert('Formulário enviado com sucesso!'); 
             // Para testes, você pode prevenir o padrão aqui também para ver a mensagem:
-            // e.preventDefault();
+            e.preventDefault();
         }
     });
 }
