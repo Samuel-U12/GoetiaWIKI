@@ -67,7 +67,7 @@ if (form) {
         } else {
              e.preventDefault();
             alert('Formulário enviado com sucesso!'); 
-            window.location.href = 'index.html';
+            window.location.href = "index.html";
         }
     });
 }
