@@ -144,7 +144,7 @@ a:hover {
 }
 
 .goetia-table th, .goetia-table td {
-  border: 1px solid aliceblue;
+  border: 1px solid rgba(240, 50, 114, 0.5);
   padding: 1rem;
   text-align: left;
 }
@@ -177,10 +177,11 @@ a:hover {
   margin: 0; 
   height: 100%; 
   padding: 2rem;
-  background: rgba(27, 39, 53, 0.5);
-  border: 1px solid #fefffa30;
-  border-radius: 15px;
-  box-shadow: 5px 5px 15px #F03272, -5px -5px 15px #F03272;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 3px solid rgba(240, 50, 114, 0.5);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(240, 50, 114, 0.3);
   display: flex;
   flex-direction: column;
   align-items: center; 
